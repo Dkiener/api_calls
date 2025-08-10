@@ -1,3 +1,12 @@
+"""
+Top Java GitHub Repo Chart
+
+08-09-2025
+David Kiener
+
+Visualizes a bar graph showing the top-starred GitHub repositories that use Java
+"""
+
 import requests
 import plotly.express as px
 
