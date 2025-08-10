@@ -12,7 +12,7 @@ print(f"Total Repo: {response_dict['total_count']}")
 print(f"Complete results: {not response_dict['incomplete_results']}")
 
 repo_dicts = response_dict['items']
-print(f"Repositories returned: {len(response_dict)}")
+print(f"Repositories returned: {len(repo_dicts)}")
 
 for repo_dict in repo_dicts:
     print(f"\nName: {repo_dict['name']}")
